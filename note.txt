@@ -1,0 +1,13 @@
+Tested on Ubuntu Linux with openjdk version "1.8.0_91", should be okay with all recent java environments.
+Either load the directory via an IDE, or use my scripts provided:
+
+$ chomod +x build.sh run.sh runtest.sh
+
+# build jar package
+$ ./build.sh
+
+# run program
+$ ./run.sh
+
+# run test
+$ ./runtest.sh
